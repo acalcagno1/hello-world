@@ -1,0 +1,137 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: black
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.botonesHeader {
+    width: 70px;
+    height: 70px;
+}
+.logo{
+    width: 100px;
+}
+.divImagenMenuPrinc{
+    display: flex;
+    justify-content: center;
+}
+.ImagenMenuPrinc {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+.ImagenesOpciones {
+    margin-top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.FormatoImagenesOpciones{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 570px;
+    width: 400px;
+}
+.BotonesOpciones{
+    display: inline-block;
+    position: absolute;
+    background-color: #228b22;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 18%;
+}
+#Link{
+    text-decoration: none;
+    color:#fbebde;
+    font-family:sans-serif;
+}
+.TamañoImagenesOpciones{
+    width: 100%;
+    height: 100%;
+}
+.SomosDrippin{
+    position: relative;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+.TituloSomosDrippin{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family:"Avenir Next",Sans-serif;
+    color: #228B22;
+    padding: 10px;
+    font-size: 2em;
+}
+.TextoSomosDrippin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1000px;
+    font-family:"Avenir Next",Sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.divImagenSomosDrippin{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: black;
+    justify-content: center;
+}
+.ImagenSomosDrippin{
+    height: 550px;
+    width: 100%;
+}
+.Footer { 
+    display: flex;
+    color: white;
+    font-family:sans-serif;
+    padding: 15px;
+    background-color: black;
+}
+.Contacto-Footer{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"Montserrat",Sans-serif;
+    font-size: 14px;
+}
+.Contacto-Footer2 {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagenFooter {
+    width: 60px;
+    height: 60px;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin-bottom: 5px;
+}
+
