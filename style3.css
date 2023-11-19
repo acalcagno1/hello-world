@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: black; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#MenuDesplegable{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+#dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 1;
+    top: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}  
+#dropdownMenu a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family:"Montserrat",Sans-serif;
+
+}
+  #dropdownMenu a:hover {
+    background-color: #c7b4b4;
+}
+
+#WPP{
+    width: 70px;
+    height: 70px;
+}
+.logo{
+    width: 100px;
+}
+.Body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 800px;
+  width: 100%;
+}
+.Imagen {
+   max-width: 50%;
+  height: auto;
+  }
+  
+.Descripcion{
+  max-width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.Titulo{
+  color: #333;
+  text-align: center;
+}
+p{
+  color: #555;
+}
+.boton-wpp{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Footer { 
+  position: bottom;
+  display: flex;
+  color: white;
+  font-family:sans-serif;
+  padding: 15px;
+  background-color: black;
+}
+.Contacto-Footer{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:"Montserrat",Sans-serif;
+  font-size: 14px;
+}
+.Contacto-Footer2{
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+   align-items: center;
+}
+.imagenFooter{
+  width: 60px;
+  height: 60px;
+    
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+   padding: 0;
+}
+li{
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+.Header{ 
+  font-size: 12px;
+}
+.Titulo{
+  font-size: 10px;
+}
+.Descripcion{
+  font-size: 12px;
+}
+.Footer{
+  height: 20%;
+}
+.Contacto-Footer{
+  width: 100%;
+  margin-bottom: 10px; 
+}
+.Contacto-Footer2 {
+  flex-direction: row;
+}
+.imagenFooter {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+}
